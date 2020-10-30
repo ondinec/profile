@@ -1,0 +1,84 @@
+
+
+body {
+  background-color: black;
+  font-family: 'Source Code Pro', mono space;
+  color: red;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h1.name {
+  color: #a8dfe6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  border: 1px solid white;
+  box-shadow: 10px 15px;
+}
+
+a {
+  color: #bf0410;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0dd1d;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: pink;
+  box-shadow: 10px 20px;
+  margin: 10px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: orange;
+  padding: 2px;
+  border: 3px dotted #573604;
+  margin: 5px 5px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 20%;
+  border: 3px dotted #e0dd1d;
+  box-shadow: 15px 15px yellow;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100px;
+  }
+}
